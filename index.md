@@ -1,6 +1,6 @@
 ---
-title: El papel del sector privado en el Presupuesto de la Consejería de Sanidad de Madrid 2015
-author: 
+title: "El papel del sector privado en el Presupuesto de la Consejería de Sanidad de Madrid 2015"
+author:  
 mode : selfcontained #{standalone, draft, selfcontained}
 framework: revealjs
 revealjs: {theme: white, transition: convex, center: "true"}
@@ -12,9 +12,11 @@ knit        : slidify::knit2slides
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+## El papel del sector privado en el Presupuesto de la Consejería de Sanidad de Madrid 2015
+
 <img src='assets/img/logo-audita-sanidad.jpg' alt='Logo Auditoría en Sanidad' width='200px'></p>
 
-<p style='font-size:50%; text-transform: lowercase;'>http://auditasanidad.org/</p>
+<a href="http://auditasanidad.org/">http://auditasanidad.org/</a>
 
 
 --- &vertical
@@ -45,7 +47,7 @@ knit        : slidify::knit2slides
 <!-- *** -->
 
 ## Evolución de la deuda de la Comunidad de Madrid
-<iframe src=' figure/deuda-comunidad-madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart543f6ff77152 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/deuda-comunidad-madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart5b2a67233cd5 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 <!-- *** -->
 
@@ -67,19 +69,19 @@ knit        : slidify::knit2slides
 
 ## Gasto en medios ajenos
 
-<iframe src=' figure/gasto-medios-ajenos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart543f784af691 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/gasto-medios-ajenos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart5b2a54e4e98c ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 ---
 
 ## Actividades realizadas con medios ajenos
 
-<iframe src=' figure/actividades-medios-ajenos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart543f79dff12f ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/actividades-medios-ajenos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart5b2a3b4ed04a ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 ---
 
 ## Evolución de la venta de genéricos vs medicamentos innovadores
 
-<iframe src=' figure/evolucion-ventas-genericos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart543f387115d ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/evolucion-ventas-genericos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart5b2a5a0739a5 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 ---
 

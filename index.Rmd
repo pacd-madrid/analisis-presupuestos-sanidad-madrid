@@ -1,6 +1,6 @@
 ---
-title: El papel del sector privado en el Presupuesto de la Consejería de Sanidad de Madrid 2015
-author: 
+title: "El papel del sector privado en el Presupuesto de la Consejería de Sanidad de Madrid 2015"
+author:  
 mode : selfcontained #{standalone, draft, selfcontained}
 framework: revealjs
 revealjs: {theme: white, transition: convex, center: "true"}
@@ -16,9 +16,11 @@ options(RCHART_WIDTH=800, RCHART_HEIGHT=400, xtable.type='html')
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+## El papel del sector privado en el Presupuesto de la Consejería de Sanidad de Madrid 2015
+
 <img src='assets/img/logo-audita-sanidad.jpg' alt='Logo Auditoría en Sanidad' width='200px'></p>
 
-<p style='font-size:50%; text-transform: lowercase;'>http://auditasanidad.org/</p>
+<a href="http://auditasanidad.org/">http://auditasanidad.org/</a>
 
 
 --- &vertical
@@ -110,7 +112,7 @@ data <- read.table("datos/evolucion-ventas-genericos.csv", header = TRUE, sep=",
 p4 <- nPlot(Porcentaje.Gasto~ Año, group="Tipo", data = data, type = "lineChart")
 p4$xAxis(axisLabel = 'Año')
 p4$yAxis(axisLabel = 'Porcentaje de gasto', tickFormat = "#! function(d) {return d + '%' } !#")
-p4$chart(margin = list(left = 100))
+p4$chart(margin = list(left = 100), color=c("blue","red"))
 p4
 ```
 
