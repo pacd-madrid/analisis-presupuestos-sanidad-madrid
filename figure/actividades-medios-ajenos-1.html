@@ -22,20 +22,20 @@
   </head>
   <body >
     
-    <div id = 'chart47e11278dd60' class = 'rChart nvd3'></div>    
+    <div id = 'chart543f79dff12f' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchart47e11278dd60()
+      drawchart543f79dff12f()
     });
-    function drawchart47e11278dd60(){  
+    function drawchart543f79dff12f(){  
       var opts = {
- "dom": "chart47e11278dd60",
+ "dom": "chart543f79dff12f",
 "width":    800,
 "height":    400,
 "x": "Actividad",
 "y": "Cantidad",
 "type": "multiBarHorizontalChart",
-"id": "chart47e11278dd60" 
+"id": "chart543f79dff12f" 
 },
         data = [
  {
@@ -116,13 +116,17 @@
         }
           
          
-        
+        chart
+  .margin({
+ "left":    350 
+})
           
         
 
         
         
-        
+        chart.yAxis
+  .axisLabel("Cantidad (€)")
       
        d3.select("#" + opts.id)
         .append('svg')

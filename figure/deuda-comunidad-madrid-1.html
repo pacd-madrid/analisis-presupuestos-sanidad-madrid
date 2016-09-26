@@ -22,85 +22,85 @@
   </head>
   <body >
     
-    <div id = 'chart47e11cff5072' class = 'rChart nvd3'></div>    
+    <div id = 'chart543f6ff77152' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchart47e11cff5072()
+      drawchart543f6ff77152()
     });
-    function drawchart47e11cff5072(){  
+    function drawchart543f6ff77152(){  
       var opts = {
- "dom": "chart47e11cff5072",
+ "dom": "chart543f6ff77152",
 "width":    800,
 "height":    400,
 "x": "Anio",
 "y": "Deuda",
 "type": "multiBarChart",
-"id": "chart47e11cff5072" 
+"id": "chart543f6ff77152" 
 },
         data = [
  {
  "Anio": 2000,
-"Deuda": 4218418 
+"Deuda":     4218418000 
 },
 {
  "Anio": 2001,
-"Deuda": 6854622 
+"Deuda":     6854622000 
 },
 {
  "Anio": 2002,
-"Deuda": 8613626 
+"Deuda":     8613626000 
 },
 {
  "Anio": 2003,
-"Deuda": 9059479 
+"Deuda":     9059479000 
 },
 {
  "Anio": 2004,
-"Deuda": 8975937 
+"Deuda":     8975937000 
 },
 {
  "Anio": 2005,
-"Deuda": 10098514 
+"Deuda":    10098514000 
 },
 {
  "Anio": 2006,
-"Deuda": 10072750 
+"Deuda":    10072750000 
 },
 {
  "Anio": 2007,
-"Deuda": 10103170 
+"Deuda":    10103170000 
 },
 {
  "Anio": 2008,
-"Deuda": 10530685 
+"Deuda":    10530685000 
 },
 {
  "Anio": 2009,
-"Deuda": 11987322 
+"Deuda":    11987322000 
 },
 {
  "Anio": 2010,
-"Deuda": 13502810 
+"Deuda":    13502810000 
 },
 {
  "Anio": 2011,
-"Deuda": 15462088 
+"Deuda":    15462088000 
 },
 {
  "Anio": 2012,
-"Deuda": 20129976 
+"Deuda":    20129976000 
 },
 {
  "Anio": 2013,
-"Deuda": 22104248 
+"Deuda":    22104248000 
 },
 {
  "Anio": 2014,
-"Deuda": 24631686 
+"Deuda":    24631686000 
 },
 {
  "Anio": 2015,
-"Deuda": 27645644 
+"Deuda":    27645644000 
 } 
 ]
   
@@ -132,13 +132,20 @@
         }
           
          
-        
+        chart
+  .margin({
+ "left":    100 
+})
           
-        
+        chart.xAxis
+  .axisLabel("Año")
 
         
         
-        
+        chart.yAxis
+  .axisLabel("Gasto (Millones €)")
+  .width(   100)
+  .tickFormat( function(d) {return d/1000000 + 'M€' } )
       
        d3.select("#" + opts.id)
         .append('svg')

@@ -53,6 +53,9 @@ options(RCHART_WIDTH=800, RCHART_HEIGHT=400, xtable.type='html')
 require(rCharts)
 data <- read.table("datos/evolucion-deuda-madrid.csv", header = TRUE, sep=",")
 p1 <- nPlot(Deuda ~ Anio, data = data, type = "multiBarChart")
+p1$xAxis(axisLabel = 'Año')
+p1$yAxis(axisLabel = 'Gasto (Millones €)', width=100, tickFormat = "#! function(d) {return d/1000000 + 'M€' } !#")
+p1$chart(margin = list(left = 100))
 p1
 ```
 
@@ -80,6 +83,7 @@ p1
 require(rCharts)
 data <- read.table("datos/gasto-medios-ajenos.csv", header = TRUE, sep=",")
 p2 <- nPlot(Cantidad ~ Tipo.de.gasto, data = data, type = "pieChart")
+p2$chart(margin = list(left = 100))
 p2
 ```
 
@@ -91,19 +95,26 @@ p2
 require(rCharts)
 data <- read.table("datos/actividades-medios-ajenos.csv", header = TRUE, sep=",")
 p3 <- nPlot(Cantidad ~ Actividad, data = data, type = "multiBarHorizontalChart")
+p3$yAxis(axisLabel = 'Cantidad (€)')
+p3$chart(margin = list(left = 350))
 p3
 ```
 
 ---
 
-## Actividades realizadas con medios ajenos
+## Evolución de la venta de genéricos vs medicamentos innovadores
 
 ```{r evolucion-ventas-genericos}
 require(rCharts)
 data <- read.table("datos/evolucion-ventas-genericos.csv", header = TRUE, sep=",")
 p4 <- nPlot(Porcentaje.Gasto~ Año, group="Tipo", data = data, type = "lineChart")
+p4$xAxis(axisLabel = 'Año')
+p4$yAxis(axisLabel = 'Porcentaje de gasto', tickFormat = "#! function(d) {return d + '%' } !#")
+p4$chart(margin = list(left = 100))
 p4
 ```
+
+---
 
 ## ¡Gracias por su atención!
 

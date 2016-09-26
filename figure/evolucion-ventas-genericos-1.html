@@ -22,21 +22,21 @@
   </head>
   <body >
     
-    <div id = 'chart47e175010ac9' class = 'rChart nvd3'></div>    
+    <div id = 'chart543f387115d' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchart47e175010ac9()
+      drawchart543f387115d()
     });
-    function drawchart47e175010ac9(){  
+    function drawchart543f387115d(){  
       var opts = {
- "dom": "chart47e175010ac9",
+ "dom": "chart543f387115d",
 "width":    800,
 "height":    400,
 "x": "Año",
 "y": "Porcentaje.Gasto",
 "group": "Tipo",
 "type": "lineChart",
-"id": "chart47e175010ac9" 
+"id": "chart543f387115d" 
 },
         data = [
  {
@@ -119,13 +119,19 @@
         }
           
          
-        
+        chart
+  .margin({
+ "left":    100 
+})
           
-        
+        chart.xAxis
+  .axisLabel("Año")
 
         
         
-        
+        chart.yAxis
+  .axisLabel("Porcentaje de gasto")
+  .tickFormat( function(d) {return d + '%' } )
       
        d3.select("#" + opts.id)
         .append('svg')

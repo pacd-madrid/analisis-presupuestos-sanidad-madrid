@@ -45,7 +45,7 @@ knit        : slidify::knit2slides
 <!-- *** -->
 
 ## Evolución de la deuda de la Comunidad de Madrid
-<iframe src=' figure/deuda-comunidad-madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart47e11cff5072 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/deuda-comunidad-madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart543f6ff77152 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 <!-- *** -->
 
@@ -67,19 +67,21 @@ knit        : slidify::knit2slides
 
 ## Gasto en medios ajenos
 
-<iframe src=' figure/gasto-medios-ajenos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart47e1418e18f4 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/gasto-medios-ajenos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart543f784af691 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 ---
 
 ## Actividades realizadas con medios ajenos
 
-<iframe src=' figure/actividades-medios-ajenos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart47e11278dd60 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/actividades-medios-ajenos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart543f79dff12f ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 ---
 
-## Actividades realizadas con medios ajenos
+## Evolución de la venta de genéricos vs medicamentos innovadores
 
-<iframe src=' figure/evolucion-ventas-genericos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart47e175010ac9 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/evolucion-ventas-genericos-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart543f387115d ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+
+---
 
 ## ¡Gracias por su atención!
 
